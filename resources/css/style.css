@@ -2,11 +2,12 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 .bg-img {
     background-image: url(../images/banner.jpg);
-    height: 1000px;
+    height: 800px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +26,10 @@
     overflow: hidden;
 }
 
+nav {
+    float: right;
+}
+
 .top-nav a {
     float: left;
     color: #f2f2f2;
@@ -35,10 +40,7 @@
 }
 
 .top-nav a:hover {
-    background: #ddd;
-    color: black;
+    border-bottom: 3px solid white;
+    transition: .2s;
 }
 
-nav {
-    float: right;
-}
