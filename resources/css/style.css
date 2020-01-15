@@ -7,39 +7,46 @@
 
 .bg-img {
     background-image: url(../images/banner.jpg);
-    height: 800px;
+    height: 900px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
+}
 
+.intro {
+    position: relative;
+    top: 375px;
+    left: 800px;
+    display: inline-block;
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.521);
 }
 
 .container {
     width: auto;
-    margin-right: 15px;
-}
-
-.top-nav {
-    overflow: hidden;
+    position: relative;
+    right: 200px;
+    top: 40px;
 }
 
 nav {
     float: right;
 }
 
-.top-nav a {
-    float: left;
-    color: #f2f2f2;
+nav a {
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 25px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 
-.top-nav a:hover {
+nav a:hover {
     border-bottom: 3px solid white;
     transition: .2s;
 }
