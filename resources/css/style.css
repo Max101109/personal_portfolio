@@ -6,8 +6,8 @@
 }
 
 .bg-img {
-    background-image: url(../images/banner.jpg);
-    height: 900px;
+    background-image: url(../images/banner2.jpg);
+    height: 985px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,13 +18,15 @@
 
 .intro {
     position: relative;
-    top: 375px;
-    left: 800px;
+    top: 395px;
+    left: 750px;
     display: inline-block;
-    font-size: 35px;
-    color: black;
-    font-weight: 900;
-    background-color: rgba(255, 255, 255, 0.521);
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+.intro p {
+    font-size: 30px;
 }
 
 .container {
