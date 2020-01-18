@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: "Kanit", sans-serif;
+}
+
 .bg-img {
     background-image: url(../images/banner2.jpg);
     height: 985px;
@@ -23,16 +27,22 @@
     display: inline-block;
     font-size: 36px;
     color: whitesmoke;
+    line-height: 1.2;
+}
+
+.intro h1  {
+    font-weight: 400;
 }
 
 .intro p {
     font-size: 30px;
+    text-align: center;
 }
 
 .container {
     width: auto;
     position: relative;
-    right: 200px;
+    right: 180px;
     top: 40px;
 }
 
@@ -45,7 +55,7 @@ nav a {
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 nav a:hover {
