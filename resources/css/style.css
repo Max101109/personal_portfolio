@@ -1,3 +1,5 @@
+/* General */
+
 * {
     padding: 0;
     margin: 0;
@@ -9,35 +11,8 @@ html {
     font-family: "Kanit", sans-serif;
 }
 
-.bg-img {
-    background-image: url(../images/banner2.jpg);
-    height: 985px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-}
 
-.intro {
-    position: relative;
-    top: 395px;
-    left: 750px;
-    display: inline-block;
-    font-size: 36px;
-    color: whitesmoke;
-    line-height: 1.2;
-}
-
-.intro h1  {
-    font-weight: 400;
-}
-
-.intro p {
-    font-size: 30px;
-    text-align: center;
-}
+/* Navigation */
 
 .container {
     width: auto;
@@ -62,4 +37,36 @@ nav a:hover {
     border-bottom: 3px solid white;
     transition: .2s;
 }
+
+/* Banner */
+.bg-img {
+    background-image: url(../images/banner.jpg);
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.intro {
+    position: relative;
+    top: 295px;
+    left: 750px;
+    display: inline-block;
+    font-size: 36px;
+    color: whitesmoke;
+    line-height: 1.2;
+}
+
+.intro h1  {
+    font-weight: 400;
+}
+
+.intro p {
+    font-size: 30px;
+    text-align: center;
+}
+
 
