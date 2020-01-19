@@ -84,16 +84,17 @@ nav a:hover {
 }
 
 .container-image {
-    display: inline-block;
+    display: inline-flex;
     position: relative;
     left: 195px;
     padding-bottom: 95px;
+    padding-right: 150px;
 }
 
 .container-image img {
     height: 400px;
     width: 400px;
-    margin-right: 150px;
+    border-radius: 20px;
 }
 
 /* Contact */
