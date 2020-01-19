@@ -75,7 +75,7 @@ nav a:hover {
     background: linear-gradient(#03060f, #1b4a69);
 }
 .projects h2 {
-    color: rgb(170, 180, 184);
+    color: white;
     font-size: 46px;
     text-align: center;
     font-weight: 400;
@@ -120,7 +120,7 @@ nav a:hover {
 
 /* Footer */
 footer {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-right: 25px;
     font-size: 25px;
     background: linear-gradient(#1b4a69, #69a3ca);
@@ -135,11 +135,16 @@ footer h2 {
 .footer-text-left, footer h2 {
     text-align: center;
 }
+
+.container-logo {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
 .container-logo img {
     position: relative;
     left: 855px;
     height: 45px;
     width: 45px;
     text-align: center;
-    padding-top: 15px;
 }
