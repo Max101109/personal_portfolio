@@ -39,9 +39,10 @@ nav a:hover {
 
 /* Banner */
 .bg-img {
-    background-image: url(../images/banner.jpg);
-    height: 975px;
+    background-image: url(../images/banner2.jpg);
+    height: 1000px;
     width: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
@@ -50,7 +51,7 @@ nav a:hover {
 
 .intro {
     position: relative;
-    top: 300px;
+    top: 375px;
     left: 670px;
     display: inline-block;
     font-size: 3.25rem;
@@ -70,8 +71,14 @@ nav a:hover {
 }
 
 /* Projects */
+
+.grid {
+    display: grid;
+    grid-template: 1fr 2fr 2fr / 1fr 2fr 2fr 2fr 1fr;
+}
+
 .projects {
-    background: linear-gradient(#03060f, #1b4a69);
+    background-color:#1b4a69;
 }
 .projects h2 {
     color: white;
@@ -120,31 +127,25 @@ nav a:hover {
 
 /* Footer */
 footer {
-    padding-top: 80px;
-    padding-right: 25px;
     font-size: 1.25rem;
     background: linear-gradient(#1b4a69, #69a3ca);
     color: white;
 }
 
-footer h2 {
-    font-size: 2.875rem;
-    font-weight: 400;
-}
-
-.footer-text-left, footer h2 {
+.footer-container {
     text-align: center;
 }
 
-.container-logo {
-    padding-top: 15px;
-    padding-bottom: 40px;
+.logo {
+    padding-top: 75px;
+    padding-bottom: 100px;
 }
 
-.container-logo img {
-    position: relative;
-    left: 865px;
-    height: 40px;
-    width: 40px;
-    text-align: center;
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.copyright {
+    font-size: 1rem;
 }
