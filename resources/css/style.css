@@ -52,7 +52,7 @@ nav a:hover {
 .intro {
     position: relative;
     top: 375px;
-    left: 670px;
+    left: 35%;
     display: inline-block;
     font-size: 3.25rem;
     color: black;
